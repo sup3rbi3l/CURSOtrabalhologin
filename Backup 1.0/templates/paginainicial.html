@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+{%block titulo%}
+Página inicial
+{%endblock%}
+{% block conteudo%}
+<input type="checkbox" id="chec">
+<label class="labellateral" for="chec">
+  <img class="imgflask" src="{{url_for('static', filename='download.png')}}">
+</label>
+<nav class="navlateral">
+  <ul class="ul1">
+      <br>
+      <br>
+    <li ><a href="{{url_for('pagina_chamados')}}">Chamados</a></li>
+    <br>
+    <li ><a href="{{url_for('pagina_inicial')}}">Página Inicial</a></li>
+    <br>
+    <li><a href="{{url_for('pagina_usuarios')}}">Usuários</a></li>
+  </ul>
+</nav>
+  <h2 style="text-align: center; font-size: 25px; font-family: Segoe UI;">Bem vindo</h2>
+   
+  <!--Cria um título de nível 2-->
+  
+    <!--Cria uma linha horizontal.-->
+    
+    <div class="divimg">
+        <img class="imgpython" src="{{url_for('static', filename='giphy.gif')}}">
+        <!--Cria uma imagem.-->
+      </div>
+{%endblock%}

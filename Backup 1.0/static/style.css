@@ -1,0 +1,295 @@
+/* Reset básico */
+html, body {
+    margin: 0;/* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    font-family: sans-serif;/* Define fonte padrão */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0000a4;/*Cor de Fundo*/
+    padding: 0.8rem 0;/* Espaçamento interno */
+    margin-bottom: 0px;/* Remove margem inferior */
+    margin-top: 0;/* Remove margem superior */
+}
+
+.navbar .container {
+    display: flex;/* Layout flexível */
+    justify-content: space-between;/* Distribui itens nas extremidades */
+    align-items: center;/* Centraliza verticalmente */
+    
+}
+
+.navbar-brand {
+    color: #fff;/* Cor do texto branca */
+    font-size: 15px;/* Tamanho da fonte */
+    text-decoration: none;/* Remove sublinhado */
+    margin-left: 0.3cm;/* Margem esquerda */
+    font-family: Segoe UI;/* Fonte Segoe UI */
+    
+}
+.navbar-brand1 {
+    color: #fff; /* Cor do texto branca */
+    font-size: 13px;/* Tamanho da fonte */
+    text-decoration: none;/* Remove sublinhado */
+    margin-left: 0.3cm;/* Margem esquerda */
+    font-family: Segoe UI; /* Fonte Segoe UI */
+    
+    
+}
+.navbar-brand2 {
+    color: #ccc;/* Cor do texto cinza claro */
+    font-size: 13px; /* Tamanho da fonte */
+    text-decoration: none;/* Remove sublinhado */
+    margin-left: 0.3cm;/* Margem esquerda */
+    font-family: Segoe UI;/* Fonte Segoe UI */
+    transition: color 0.3s/* Anima a cor ao passar o mouse */
+    
+}
+.navbar-brand2:hover {
+    color: #fff; /* Cor branca ao passar o mouse */
+}
+
+
+.navbar-toggler {
+    border: none;/* Remove borda */
+    background-color: transparent;/* Remove fundo */
+    cursor: pointer;/* Define o cursor como ponteiro */
+}
+
+
+/* Dropdown da barra de navegação */
+.navbar-collapse {
+    display: flex;/* Layout flexível */
+    flex-wrap: wrap;/* Permite quebra de linha em telas menores */
+    align-items: center;/* Centraliza verticalmente */
+}
+
+.navbar-nav {
+    padding-left: 5px;/* Espaçamento interno à esquerda */
+    padding-right: 5px;/* Espaçamento interno à direita */
+}
+
+.navbar-nav .nav-link {
+    color: #ccc;/* Cor do texto cinza claro */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 13px;/* Tamanho da fonte */
+    margin-right: 0.2cm;/* Margem direita */
+    font-family: Segoe UI; /* Fonte Segoe UI */
+    transition: color 0.3s/* Anima a cor ao passar o mouse */
+}
+.navbar .nav-link:hover {
+    color: #fff; /* Cor branca ao passar o mouse */
+}
+
+.navbar-nav .nav-link1 {
+    color: #fff;/* Cor do texto branca */
+    text-decoration: none;/* Remove sublinhado */
+    font-size: 12px;/* Tamanho da fonte */
+    margin-left: 0.2cm; /* Margem esquerda */
+    font-family: Segoe UI;/* Fonte Segoe UI */
+    
+}
+
+
+
+
+
+h2{
+    margin-top: 0px;/* Remove margem superior */
+}
+.divimg{
+    text-align: center;/* Centraliza o conteúdo */
+  }
+
+  
+.imgpython{
+    width: 100px;/* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+  }
+ 
+  table {
+    width: 100%;/*Define a largura da tabela para ocupar o espaço total disponível.*/
+    border-collapse: collapse;/* Faz com que as bordas das células da tabela se encontrem, eliminando espaço entre elas.*/
+    border-top: 1px solid #ddd;/*Adiciona uma linha horizontal sólida de 1px de espessura na cor #ddd (cinza claro) na parte superior da tabela.*/
+    border-bottom: 1px solid #ddd;/*Adiciona uma linha horizontal sólida de 1px de espessura na cor #ddd na parte inferior da tabela*/
+  }
+  
+  th, td {
+    padding: 10px;/* Adiciona um espaçamento interno de 10px em todas as direções às células da tabela (cabeçalho e corpo)*/
+    text-align: left;/*Alinha o texto das células à esquerda.*/
+    border-right: 1px solid #ddd;/*Adiciona uma linha vertical sólida de 1px de espessura na cor #ddd à direita de cada célula da tabela.*/
+  }
+  
+  th {
+    font-weight: bold;/*Torna o texto das células do cabeçalho (th) negrito.*/
+    border-bottom: 2px solid #ddd;/*Adiciona uma linha horizontal sólida de 2px de espessura na cor #ddd na parte inferior das células do cabeçalho.*/
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;/*Adiciona uma linha horizontal sólida de 1px de espessura na cor #ddd na parte inferior das células do corpo (td).*/
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #eee;/*Muda o fundo da linha para a cor #eee (cinza claro) quando o mouse passar sobre ela.*/
+  }
+  /* Estilo geral para todos os botões */
+button {
+  /* Cantos arredondados */
+  border-radius: 5px;
+  /* Espaçamento interno entre o texto e a borda */
+  padding: 10px 20px;
+  /* Tamanho da fonte */
+  font-size: 16px;
+  /* Família de fontes */
+  font-family: sans-serif;
+}
+
+/* Estilo específico para botões de edição */
+button.editar {
+  /* Fundo verde */
+  background-color: green;
+  /* Cor do texto branca */
+  color: white;
+}
+
+/* Estilo específico para botões de exclusão */
+button.excluir {
+  /* Fundo vermelho */
+  background-color: red;
+  /* Cor do texto branca */
+  color: white;
+}
+
+/* Estilo para o botão de login */
+.botaologin {
+  /* Largura do botão */
+  width: 200px;
+  /* Altura do botão */
+  height: 40px;
+  /* Fundo azul escuro */
+  background-color: #0000a4;
+  /* Cor do texto branca */
+  color: white;
+  /* Cor da borda amarela */
+  border-color: yellow;
+}
+
+/* Estilo para os campos de entrada do login */
+.inputlogin {
+  /* Cor da borda amarela */
+  border-color: yellow;
+  /* Cantos arredondados */
+  border-radius: 5px;
+  /* Espaçamento interno */
+  padding: 10px 20px;
+  /* Largura do campo */
+  width: 160px;
+  /* Altura do campo */
+  height: 20px;
+}
+
+/* Estilo para links que funcionam como botões de exclusão */
+.excluir {
+  /* Exibição como bloco inline (pode ficar ao lado de outros elementos) */
+  display: inline-block;
+  /* Espaçamento interno */
+  padding: 10px 20px;
+  /* Borda preta */
+  border: 1px solid black;
+  /* Fundo vermelho */
+  background-color: red;
+  /* Cor do texto branca */
+  color: white;
+  /* Remove o sublinhado padrão de links */
+  text-decoration: none;
+}
+
+/* Estilo para links que funcionam como botões de edição */
+.editar {
+  /* Exibição como bloco inline */
+  display: inline-block;
+  /* Espaçamento interno */
+  padding: 10px 20px;
+  /* Borda preta */
+  border: 1px solid black;
+  /* Fundo verde */
+  background-color: green;
+  /* Cor do texto branca */
+  color: white;
+  /* Remove o sublinhado padrão de links */
+  text-decoration: none;
+}
+.msg-alertas{ 
+  width:100%; 
+  overflow:hidden; 
+  margin:0 auto; 
+  padding:10px; 
+  background-color:#FFFFFF; 
+} 
+.ms{ 
+ width:100%; 
+ margin:auto;  
+ padding:1em; 
+ float:left; 
+ display:block; 
+ margin-bottom:10px;
+ font-family:Verdana, Arial, Helvetica, sans-serif; 
+ font-weight:100; 
+ font-size:16px;
+}
+
+.erro   { background-color:#FFCACA; border:2px #a60202 solid; color:#a60202; border-radius:5px; }
+.ok     { background-color:#A6FFBC; border:2px #00bd00 solid; color:#00bd00; border-radius:5px; }
+.alerta { background-color:#FFFFBF; border:2px #2b2b2b solid; color:#2b2b2b; border-radius:5px; }
+.info   { background-color:#B3E7FF; border:2px #018ace solid; color:#018ace; border-radius:5px; }
+
+a{
+  text-decoration:none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  text-align: left; /* Adicione esta linha para alinhar os elementos li à esquerda */
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.navlateral{
+ 
+  width: 140px;
+  height: 100%;
+  left: -140px;
+  position: absolute;
+  transition: all.5s;
+}
+.ul1{
+  top: 70px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  margin-left: 0; /* Adicione esta linha para remover o espaço à esquerda do elemento ul1 */
+  /* Altere esta linha para posicionar o elemento ul1 no ponto de origem */
+  left: 0;
+}
+
+input[type="checkbox"]:checked ~ nav{
+  transform: translateX(140px);
+}
+.labellateral{
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}
+.imgflask{
+  width: 80px;/* Largura da imagem */
+  height: 80px; /* Altura da imagem */
+  margin-left: 20px;
+}
+div.divimg {
+  display: flex;
+  justify-content: center;
+}
